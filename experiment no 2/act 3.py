@@ -1,0 +1,18 @@
+#Input salary from user
+Created on Fri Mar 27 21:30:33 2026
+
+
+
+@author: Raj Magar
+salary = float(input("Enter your salary: "))
+
+
+
+# Check loan approval
+if salary >= 25000:
+print("Loan Approved")
+
+
+
+else:
+print("Loan Rejected")
