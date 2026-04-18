@@ -1,0 +1,13 @@
+## Input marks of students
+Created on Sat Mar 28 01:10:51 2026
+@author: Abhishek Jagdale
+
+marks = [75, 88, 92, 67, 85]
+# Calculate average
+average = sum(marks) / len(marks)
+# Find topper marks
+topper = max(marks)
+# Display results
+print("Marks:", marks)
+print("Average Marks:", average)
+print("Topper Marks:", topper)
