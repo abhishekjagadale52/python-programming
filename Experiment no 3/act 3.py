@@ -1,0 +1,20 @@
+# Code for item numbers
+Created on Mon Feb 16 15:26:04 2026
+@author: Abhishek Jagdale
+copies = int(input("Enter number of receipt copies:
+items = int(input("Enter number of items in each reciept: "))
+for copy in range(1, copies + 1):
+print("\nreciept Copy:", copy)
+
+
+
+print("
+for item in range(1, items + 1):
+
+
+
+print("item Number: ",item)
+print("
+print("\nAll receipts printed successfully!")
+
+
