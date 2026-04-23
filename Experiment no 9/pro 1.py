@@ -1,0 +1,33 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 23 19:00:48 2026
+
+@author: abhishek jagdale
+"""
+
+import math
+
+# Take input from the user (Pratyek input navin line var)
+num = float(input("Enter a number for square root and power calculation: "))
+power = float(input("Enter the exponent value: "))
+angle_deg = float(input("Enter an angle in degrees for trigonometric functions: "))
+
+# Square root
+sqrt_value = math.sqrt(num)
+print(f"Square root of {num} is {sqrt_value}")
+
+# Power
+power_value = math.pow(num, power)
+print(f"{num} raised to the power {power} is {power_value}")
+
+# Convert angle to radians
+angle_rad = math.radians(angle_deg)
+
+# Trigonometric functions
+sin_value = math.sin(angle_rad)
+cos_value = math.cos(angle_rad)
+tan_value = math.tan(angle_rad)
+
+print(f"Sin({angle_deg}°) = {sin_value}")
+print(f"Cos({angle_deg}°) = {cos_value}")
+print(f"Tan({angle_deg}°) = {tan_value}")
